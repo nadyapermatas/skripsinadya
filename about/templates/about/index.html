@@ -1,0 +1,14 @@
+{%extends "base.html" %}
+{% load static %}
+
+{% block app_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'about/css/styles.css'%}"> 
+{% endblock app_css%}
+
+{%block header%}
+<h1 class="text-left" style="padding-top: 100px;">{{heading}}</h1>
+
+{%endblock header%}
+
+
+
